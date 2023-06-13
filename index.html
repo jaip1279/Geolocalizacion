@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JAIP - Google Maps</title>
+
+<link rel="stylesheet" href="./Style.css">
+
+</head>
+<body>
+
+<input class="localizacion" id="localizacion" name="localizacion"type="text" value="" />
+<input type="text" id="place_input">
+<p><button onclick="document.getElementById('GetZoom').innerHTML = map.getZoom()">Get map zoom</button></p>
+<div id="GetZoom" class="GetZoom"></div>
+<button id="MiUbicacion">Mostrar mi ubicación</button>
+<div id="map">
+
+
+</div>
+
+
+<!-- =================================Se carga el Script para el google Maps================================= -->
+<script src="./Maps.js"></script>
+<script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDacDTJIvueZB9g-8matbFeGYyroNeNnxQ&libraries=places&callback=initMap"></script>
+<!-- =================================Fin de la carga el Script para el google Maps================================= -->
+</body>
+</html>

@@ -1,0 +1,23 @@
+html, body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+
+#map{
+    height: 100%;
+}
+
+.GetZoom{
+    display: block;
+    position: absolute;
+    margin-left: 128px;
+    margin-top: -36px;
+    border: 1px solid #999;
+    width: 25px;
+    text-align: center;
+}
+
+.localizacion{
+    width: 280px;
+}
